@@ -1,3 +1,203 @@
 /*----Normalize CSS---*/
 
-@import "normalize.css"; 
+@import "normalize.css";
+
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+ background-color: #b7b9bc;
+ margin-top: 0;
+ margin-bottom: 0;
+
+}
+
+.wrap {
+  background-color: #dee5ef;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+  border: 1px solid red;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0;
+}
+
+h2,
+h3,
+h4   {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Arvo", serif;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+p {
+  margin: 0 10px 15px;
+  text-align: center;
+  font-family: "Arvo", serif;
+  font-size: .8rem;
+  letter-spacing: 1.5px;
+}
+
+li {
+  font-family: "Arvo", serif;
+  font-size: .8em;
+}
+
+
+
+/* Navigation Styles */
+.main-nav {
+  border: 1px solid red;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+width: auto;
+}
+
+.navlist {
+padding: 0 10px; }
+
+
+.main-nav li {
+  border: 1px solid red;
+  font-size: .75em;
+  list-style-type: none;
+  padding: 10px 0;
+  margin: 10px 5px;
+  background-color: #eaeef2;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.main-nav a {
+  color: #000;
+
+}
+
+.main-nav a {
+  text-decoration: none;
+}
+
+/* Image Styles */
+
+.profile-img {
+  border: 1px solid red;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.portfolio-pic {
+  border: 1px solid red;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* Section Styles */
+#top{
+  background-color: #dee4ed;
+  border: 1px solid orange;
+  margin: -12px;
+
+}
+
+.main-container {
+  border: 1px solid green;
+  margin-top: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: #eaeef2;
+
+}
+
+.student-name {
+  text-align: center;
+  font-family: "Arvo", serif;
+  font-weight: 750;
+  font-size: 1.7em;
+}
+
+.header-about {
+  border: 1px solid red;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#portfolio {
+  border: 1px solid red;
+  text-align: center;
+  font-size: .9em;
+  font-family:
+}
+
+#bottom {
+  border: 1px dotted blue;
+  background-color: #dee4ed;
+  margin: -11px;
+}
+
+#contactinfo li {
+  border: 1px solid purple;
+  list-style-type: none;
+  text-align: center;
+  padding: 3px;
+}
+
+.name {
+  float: left;
+  font-weight: 750;
+  font-size: .8em;
+}
+
+.to-top {
+  float: right;
+  font-weight: 750;
+  font-size: .8em;
+}
+
+
+footer {
+  background-color: #dee4ed;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 40px 15px;
+  width: 100%;
+}
+
+
+/* Styles for larger screens */
+
+/* clearfix */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
